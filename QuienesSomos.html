@@ -1,0 +1,420 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VillaParques_1151362_1151401</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="vendor/bootstrap-select/css/bootstrap-select.min.css">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon and apple touch icons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div id="all">
+      <!-- Top bar-->
+      <div class="top-bar">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 d-md-block d-none">
+              <p>villaparques@gmail.com</p>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end justify-content-between">
+                <ul class="list-inline contact-info d-block d-md-none">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+                <div class="login"><a href="#" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Iniciar Sesion</span></a><a href="Registrar.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Registrarse</span></a></div>
+                <ul class="social-custom list-inline">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <!-- VENTANA DE LOGIARSE-->
+      <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modalLabel" aria-hidden="true" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 id="login-modalLabel" class="modal-title" style="text-align: center">Iniciar Sesion</h4>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="customer-orders.html" method="get">
+                <div class="form-group">
+                  <input id="email_modal" type="text" placeholder="Correo" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input id="password_modal" type="password" placeholder="Contraseña" class="form-control">
+                </div>
+                <p class="text-center">
+                  <button class="btn btn-template-outlined"><i class="fa fa-sign-in"></i> Entrar</button>
+                </p>
+              </form>
+              <p class="text-center text-muted">No te has registrado?</p>
+              <p class="text-center text-muted"><a href="Registrar.html"><strong>Registrate ahora </strong></a>!Es gratis¡</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Login modal end-->
+      <!-- Navbar Start-->
+      <header class="nav-holder make-sticky">
+        <div id="navbar" role="navigation" class="navbar navbar-expand-lg">
+          <div class="container"><a href="index.html" class="navbar-brand home"><img src="img/logo.png" alt="villa  logo" class="d-none d-md-inline-block"><span class="sr-only"></span></a>
+           
+            <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-outlined"><span class="sr-only"></span><i class="fa fa-align-justify"></i></button>
+            <div id="navigation" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown active"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Inicio <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="index.html" class="nav-link">Villa Parques </a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Consejo<b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu">
+                    <li>
+                      <div class="row">
+                        <div class="col-lg-6"><img src="img/casa1" alt="" class="img-fluid d-none d-lg-block"></div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5>Asambleas</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="Asistencia.html" class="nav-link">Asistencias</a></li>
+                            <li class="nav-item"><a href="TemasGenerales.html" class="nav-link">Temas Generales Villa Parques</a></l>
+                        </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5>Consejo</h5>
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="QuienesSomos.html" class="nav-link">Quienes Pertenecen</a></li>
+                            <li class="nav-item"><a href="InformacionConsejo.html" class="nav-link">Informacion Consejo</a></li>
+                            
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Solicitudes <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu">
+                    <li>
+                      <div class="row">
+                        <div class="col-lg-6"><img src="img/casa1.png" alt="" class="img-fluid d-none d-lg-block"></div>
+                        <div class="col-lg-3 col-md-6">
+                         
+                          <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="Multas.html" class="nav-link">Multas</a></li>
+                            <li class="nav-item"><a href="Recibo.html" class="nav-link">Recibos</a></li>
+                            
+                            
+                        </div>
+                        
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- ========== FULL WIDTH MEGAMENU ==================-->
+                <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle">Informacion <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu">
+                    <li>
+                      <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                        <ul class="list-unstyled mb-3">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Conocenos</a></li>
+                            <li class="nav-item"><a href="index2.html" class="nav-link">Informacion al dia</a></li>
+                            
+                         
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+
+
+                
+                <!-- ========== CONTACTOS ==================-->
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Contactos <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="contactos.html" class="nav-link">Envia tu pregunta</a></li>
+                    
+                  </ul>
+                </li>
+                <!-- ========== Contact dropdown end ==================-->
+              </ul>
+            </div>
+            <div id="search" class="collapse clearfix">
+              <form role="search" class="navbar-form">
+                <div class="input-group">
+                  <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      
+ <div id="heading-breadcrumbs">
+        <div class="container">
+          <div class="row d-flex align-items-center flex-wrap">
+            <div class="col-md-7">
+              <h1 class="h2">Quienes pertenecen a la Junta de Condominio</h1>
+            </div>
+            <div class="col-md-5">
+              <ul class="breadcrumb d-flex justify-content-end">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Consejo Villa Parques</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container">
+          <section class="bar mb-0">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading">
+                  <h2>Miembros del concejo</h2>
+                </div>
+               
+                <div class="row text-center">
+                  <div class="col-md-3">
+                    <div data-animate="fadeInUp" class="team-member">
+                      <div class="image"><a href="team-member.html"><img src="img/persona1.jpg" alt="" class="img-fluid rounded-circle"></a></div>
+                      <h3><a href="team-member.html">Patricia Marquez</a></h3>
+                      <p class="role">Presidente</p>
+                      <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="#" class="external facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external gplus"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="email"><i class="fa fa-envelope"></i></a></li>
+                      </ul>
+                      <div class="text">
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- /.team-member-->
+                  <div data-animate="fadeInUp" class="col-md-3">
+                    <div class="team-member">
+                      <div class="image"><a href="team-member.html"><img src="img/persona2.jpg" alt="" class="img-fluid rounded-circle"></a></div>
+                      <h3><a href="team-member.html">Luis Fuentes</a></h3>
+                      <p class="role">Vicepresidente</p>
+                      <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="#" class="external facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external gplus"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="email"><i class="fa fa-envelope"></i></a></li>
+                      </ul>
+                      <div class="text">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- /.team-member-->
+                  <div data-animate="fadeInUp" class="col-md-3">
+                    <div class="team-member">
+                      <div class="image"><a href="team-member.html"><img src="img/persona3.jpg" alt="" class="img-fluid rounded-circle"></a></div>
+                      <h3><a href="team-member.html">Arturo Casas</a></h3>
+                      <p class="role">Tesorero</p>
+                      <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="#" class="external facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external gplus"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="email"><i class="fa fa-envelope"></i></a></li>
+                      </ul>
+                      <div class="text">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- /.team-member-->
+                  <div data-animate="fadeInUp" class="col-md-3">
+                    <div class="team-member">
+                      <div class="image"><a href="team-member.html"><img src="img/persona4.jpg" alt="" class="img-fluid rounded-circle"></a></div>
+                      <h3><a href="team-member.html">Ana largos</a></h3>
+                      <p class="role">Vocal</p>
+                      <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="#" class="external facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external gplus"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="external twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="email"><i class="fa fa-envelope"></i></a></li>
+                      </ul>
+                          <div class="text">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                      
+                  
+                  <div data-animate="fadeInUp" class="col-md-12">
+                    
+
+            <H3>De las atribuciones y funciones del Presidente de la Junta de Condominio:</H3>
+
+            A) Presidir las reuniones de la Asamblea General de Propietarios y de la Junta de Condominio;
+            <Br>
+
+            B) Ejercer la representación legal de la Junta de Condominio del Conjunto Residencial cuando ésta haga las funciones de administrador. Cuando exista un administrador del Conjunto Residencial, será él quien ejerza la representación legal de la comunidad de propietarios;
+             <Br>
+
+            C) Coordinar   las   actividades  de los demás miembros (principales o suplentes) de la Junta Directiva del Condominio;
+             <Br>
+
+            D) Cumplir y hacer cumplir el presente Reglamento de Condominio y las disposiciones de la Ley de Propiedad Horizontal;
+             <Br>
+
+            E) Adelantar las relaciones institucionales con las empresas prestadoras de los servicios públicos en el Conjunto Residencial;
+             <Br>
+
+            F) Realizar la contratación de personas para la conservación,     mantenimiento     o   reparación de las áreas comunes del inmueble, así como decidir su despido o revocación contractual;
+             <Br>
+
+            G) Convocar y presidir el proceso electoral para la renovación de los miembros de la Junta Directiva del Condominio, así como dar a conocer sus resultados por escrito cuando no se instale le Comisión Electoral respectiva;
+             <Br>
+
+            H) Elaborar con la asesoría del Tesorero el presupuesto semestral o anual de gastos o inversión en las áreas comunes del Conjunto Residencial; 
+             <Br>
+
+            I) Otras que sean aprobadas por el setenta y cinco por ciento (75%) del valor capital presente en la Asamblea General de Propietarios.
+
+
+
+<H3>De las atribuciones y funciones del Tesorero de la Junta Directiva del Condominio:</H3>
+
+            A) Hacer mensualmente la relación de ingresos y gastos del Condominio del Conjunto Residencial y remitirlas al Secretario de la Junta para su posterior publicidad;
+
+            B)  Llevar  un  archivo  de  todas  las  facturas  pagadas  por  los propietarios y el Condominio, así como de los depósitos efectuados discriminadamente por cada uno a las distintas cuentas del Condominio;
+
+            C) Elaborar la lista mensual de propietarios solventes con las distintas obligaciones del condominio;
+
+            D) Llevar el libro de contabilidad del Condominio. Para realizar esta tarea con mayor agilidad,   el   Tesorero   podrá   hacer  uso   de  los  sistemas  y  programas  de  computación.  La contabilidad computarizada y su impresión original hará las veces del libro de contabilidad, siempre y cuando vaya firmada por los miembros principales de la Junta de Condominio y dos
+
+<h3>propietarios del Conjunto Residencial, sin que ello releve a este funcionario de entregar los libros de contabilidad debidamente llenados al finalizar su gestión;</h3>
+
+            E) Otras que sean aprobadas por el setenta y cinco por ciento (75%) del valor capital presente en la Asamblea General de Propietarios.
+
+            A.3) Establecer cronogramas de trabajo para el cumplimiento de los objetivos: esto no es otra cosa que la distribución de las metas predeterminadas por la junta en un espacio de tiempo, que legalmente está establecido por un período mínimo de un año. Lógicamente, para poder hacer un cronograma de objetivos hay que detectar "in prima fase", qué es lo que hay que hacer; para luego indicar los procedimientos de forma detallada respondiendo así la pregunta, cómo se realizarán los objetivos; llegando finalmente a la concreción temporal distribuyendo tales objetivos en el lapso que tiene legalmente establecido para cumplirlos.
+
+            Nos detenemos brevemente en este punto sólo para mencionar que es necesario que la junta de condominio proponga un regular régimen de reuniones que le permita no sólo tomar las decisiones  necesarias para alcanzar sus objetivos, sino tener claro el "nivel de supervisión" de la ejecución  de  esas decisiones. Sugerimos que cada reunión de la junta de condominio se lleve a cabo bajo una agenda de discusión para optimizar el tiempo de trabajo y que comience siempre con la lectura del acta levantada de la reunión anterior, para poder efectivamente hacerle un seguimiento efectivo del avance en cada objetivo específico.
+
+            A.4) Comunicación con los copropietarios: sin duda, será muy estimulante para todos quienes habitan en una comunidad poder apreciar que efectivamente el equipo humano de trabajo en quienes han depositado su confianza para mantener, conservar y mejorar la inversión inmobiliaria realizada, reporta seriamente los resultados de su gestión, los cuales por cierto se van a ver materialmente y son directamente proporcional al estado físico de la infraestructura del inmueble.
+
+            Comunicar la visión, rumbo, dirección y metas de la junta de condominio a través de un órgano divulgativo mensual es una de las mejores decisiones que ella pueda tomar. De esta forma, todos los copropietarios estarán enterados de su gestión y podrán colaborar en la solución de problemas comunitarios cuando los mismos hayan desbordado su quehacer diario. En una comunidad frecuentemente se presentan situaciones o problemas que sólo pueden ser resueltos por especialistas en determinadas áreas en las que los miembros de la junta no tienen noción o experiencia, debiendo apoyarse en su comunidad para resolverlos; y que mejor vía comunicacional para pedir auxilio que un órgano divulgativo de gestión. Concluimos diciendo que comunicación es participación y a la inversa, resultando siempre la primordial herramienta de acción en la gerencia de un condominio.
+
+            A.5) Rendición de cuentas: realmente esto forma parte de la comunicación antes enunciada. Por razones didácticas y con el objeto de enfatizar su importancia colocamos la rendición de cuentas como un punto aparte de mencionar, que constituye un momento cumbre de exposición de resultados y de evaluación de la gestión de la junta de condominio.
+
+            Como ya dijimos, anualmente debe ocurrir esta presentación de resultados. Si bien es un acto formal que ocurre ante la reunión de la asamblea de propietarios convocada para tal fin, somos de la ideas que un mes antes de concluir legalmente la gestión de la junta de condominio, ésta envié por escrito a todos los copropietarios su informe final, para que éstos tengan realmente la oportunidad y el tiempo suficiente de formularse un criterio bastante objetivo del resultado de gestión que se les está presentando. Sólo así podrán aprobar o improbar la gestión; renovar o revocar el mandato que les han dado a los miembros de la junta de condominio, en síntesis, evaluar una gestión.
+
+            Como acto comunicacional, la rendición de cuentas hecha por una junta de condominio puede valerse de todas las herramientas técnicas disponibles hoy día en la comunicación: fotografías; películas;   presentaciones   computarizadas;   análisis   comparativos  de datos utilizando programas especiales, en fin, todo aquello que ayude a resumir y a comunicar de la mejor forma posible a los copropietarios del resultado de una gestión administrativa.
+
+            En lo particular, cuando nos ha correspondido integrar algunas juntas de condominios, desde el primer día de gestión nos preocupamos por el momento de rendición de cuentas; sobre todo en aquellos casos donde se asume una responsabilidad de gerenciar inmuebles que sufren situaciones críticas de diversos órdenes: de infraestructura; de tipo administrativo o legal. Por tal razón, recomendamos que la junta de condominio que opere bajo estas particulares condiciones de presión donde el descrédito de las actuaciones de las juntas anteriores afectan la credibilidad ab inicio de la junta de condominio, procedan de inmediato a dejar constancia (bien por fotografías, filmaciones o inspecciones judiciales hechas por un tribunal competente) de las condiciones en que es recibido el inmueble. Ello permitirá establecer un antes y después; es decir un punto de comparación de la gerencia de la junta con relación a lo hecho por otras anteriores y resultará muy útil a la hora de rendir cuentas. A medida que se refleje la recuperación del inmueble y se vaya dejando constancia de ello por cualquier medio, se irá ganando la confianza de los copropietarios y se convertirá en un estímulo que propiciará un cambio de cultura y del modo de relacionarse de los propietarios con su inmueble (inversión); lo cual redundará seguramente en la revalorización económica del mismo.
+
+<H2> Relación de la Junta de Condominio con el administrador y los propietarios</H2>
+
+            Podríamos subdividir este punto en otros e incluso establecer una clasificación que respondiera a las múltiples situaciones que se presentan con ambas figuras. Pero nuestra intención es sencillamente aportar los lineamientos o principios generales que deben tomarse en cuenta para definir ambas relaciones, que son distintas y en donde la junta de condominio sirve de vaso comunicante, con suficiente autoridad para intervenir en situaciones concretas para resolver o evitar algún conflicto. A continuación, dividiremos nuestra exposición en dos partes donde destacaremos los principios que deben tomarse en cuenta para que la relación  de la junta de condominio sea óptima en cada caso. Así resumimos los siguientes principios, a saber:
+
+           <P> B.1) En la relación Junta de Condominio y Administrador:
+
+                B.1.1) La relación contractual: siendo que la propia LPH señala que la relación habida entre el administrador y la Junta de Condominio (representante legal de la comunidad) es la  definida  por  el  mandato,  recomendamos  que  cuando  una persona (natural o jurídica) sirva como administrador del inmueble, se determine de forma muy detallada todos y cada uno de los términos que normarán la relación entre ambas partes. Mientras más detallado sea el régimen del mandato, menor   será   la posibilidad de duda o de vacío en cuanto a su interpretación se refiere; o lo que es lo mismo: menor será el surgimiento de los conflictos. Inclusive, sostenemos la tesis de que un contrato de administración que no contemple los mecanismos de prevención y de resolución de los posibles conflictos que puedan surgir entre las partes, será un contrato jurídicamente débil.</P>
+
+              <p>  B.1.2) El principio de la "relación comunicacional": para nosotros, este principio se basa en la continua y frecuente relación comunicacional existente entre el miembro de la junta de condominio habilitado para tal fin, y el nivel gerencial designado por el Administrador. Entendemos que no se trata simplemente de mantener una comunicación cordial, amigable o afable entre la junta de condominio y el administrador; ello, además de cumplir con las normas mínimas de cortesía y de urbanidad, debe cumplir con un cometido de cooperación y de ayuda a la junta de condominio en la gerencia del inmueble. En este orden de ideas, entendemos que este principio debe girar en torno al siguiente contenido: a) comunicación o reportes  administrativos y financieros del inmueble: el administrador durante toda su gestión comunica constantemente  su  gestión  sobre  los  asuntos  generales  del inmueble, así como los habido con cada administrado en particular. Desde la relación con los proveedores; la emisión y cobro de las facturas de condominio; el pago de la nómina de los empleados del inmueble y la situación laboral de cada uno de éstos; la conciliación bancaria de las cuentas a favor de la comunidad; en fin, siempre está comunicando lo que hace a la junta de condominio y dejando "huellas o trazas" de su actuar para su comprobación en cualquier momento de su gestión; b) asesoría jurídica: nos referimos aquí a la que debe brindar el administrador a la junta de condominio para atender la realidad legal de su gestión: la toma de decisiones válidas que sean aceptadas pacíficamente por todos y no cuestionadas por los copropietarios; la forma de dejar probanza de las decisiones tanto de la junta de condominio como de los acuerdos de los copropietarios; el combate de la morosidad, mediante la cobranza judicial o extrajudicial; c) comunicación con los niveles decisorios principales y alternos (respuesta operativa de las partes): dependiendo de la relación contractual establecida entre las partes, y considerando que la nueva tendencia de la administración inmobiliaria en Venezuela es la de corresponsabilidad administrativa entre la junta de condominio y el administrador, conviene destacar un contenido muy importante que resume la comunicación entre ambas figuras. Nos referimos ahora a la necesidad de establecer un  vaso  comunicante  permanente  entre  los  niveles  de decisiones de las partes de esa relación contractual, tomando en cuenta que los imprevistos que se presentan en la vida de un inmueble y de su comunidad de propietarios son tan diversos que amerita tomarse  muy  en cuenta una estrategia bien definida para atenderlos. Es así que es menester crear un canal abierto de comunicación entre las partes que defina sus responsables directos y alternos de ejercerlos, con el objeto de que en ningún caso sea interferido por nada ni por nadie.</p>
+
+            Ello contribuirá a medir los niveles de respuesta y de atención ante las exigencias que una parte le haga a la otra sea por el motivo que fuere y en definitiva, se consagrará de esta manera un perfeccionamiento de la relación contractual, es decir, del mandato de administración propiamente dicho, originando una mayor satisfacción de ambas partes.
+
+              <p>  B.1.3) La transparencia administrativa: como parte de la comunicación entre la junta de condominio y el administrador, nos encontramos que la máxima exigencia que aquella siempre aspira y hace a todo administrador es la absoluta transparencia en el manejo de todos los aspectos administrativos relacionados con el inmueble, especialmente el relativo al manejo de los fondos económicos, si es que ello le ha sido delegado a éste.</p>
+
+            Y la transparencia administrativa se logra con la concurrencia de distintas variables que así la permiten. Veamos: un administrador garantiza este principio si: a) posee un software de computación que permita manejar de forma integral todo lo relativo a: la emisión de facturas de condominio; pagos de proveedores; pago de nóminas; elaboración de cheques; conciliación de cuentas bancarias del cliente (comunidad de propietarios); cuentas por cobrar; en fin, un sistema de computación que permita automatizar las tareas de control contable de  las distintas operaciones administrativas que se hacen sobre el inmueble, es un requisito fundamental que garantiza la consecución de este principio; b) perfil profesional e idóneo del recurso humano del Administrador: la administración de inmuebles requiere de expertos en el área de la contabilidad; de la gerencia administrativa; del derecho y también de sistemas de computación. Otras especialidades serán integradas a las empresas de acuerdo con su interés comercial y el servicio que han diseñado prestar; c) métodos de administración: las ciencias administrativas tienen sus principios y objeto de estudio que le son propias, y que imponen una manera y criterios específicos, universalmente admitidos de hacer las cosas. No puede improvisarse en nada y es conveniente que los administrados entiendan que son criterios que sirven para manejar volúmenes de trabajo grandes, o información masiva bajo estándares que hacen posible su comunicación y entendimiento siguiendo determinadas formas; es por ello que para interpretar los datos contables arrojados bajo la aplicación de los métodos de las ciencias administrativas, hay  que  tener  una  formación  especial,  que  frecuentemente  chocan con las formas y maneras como una junta de condominio quiere que le presenten las cuentas, olvidando los criterios universalmente admitidos.
+
+           <H2>  Relación Junta de Condominio y Copropietarios: seguidamente pasamos a enunciar los principios que deben regir para mantener una relación objetiva entre ambos entes:</H2>
+
+               <P> B.2.1) El "principio de objetividad": en todas la situaciones que atienda una junta de condominio donde estén inmersos asuntos relativos a algún copropietario o grupo de ellos, debe privar la ponderación imparcial de las distintas variables para que las decisiones que se tomen, sean considerando siempre la justicia y la equidad.  Esto nos conduce a un segundo principio:</P>
+
+               <P> B.2.2) La "supremacía del interés colectivo o general": no es otra cosa que ante cualquier circunstancia o duda, las decisiones de la junta de condominio deben siempre hacer prevalecer el interés general sobre el particular, cuando estén confrontados los intereses generales con los particulares. Ello, considerando las excepciones que haya establecido la ley en salvaguarda de "intereses vitales" como la vida o la integridad física de las personas o cualquier otro bien definido, que obligue a respetarlos por imperio  de la ley.</P>
+
+               <P> B.2.3) La comunicación: nos remitimos aquí a lo que antes dijimos sobre el principio de la "relación comunicacional" tratado en el punto anterior. Agregamos sí, que hay muchas formas de propiciar la comunicación entre la junta de condominio y los propietarios; y es más, posiblemente una de las misiones de ésta sea la de fomentar la buena comunicación y solidaridad entre todos los copropietarios, siendo esto una herramienta muy efectiva de solucionar los normales conflictos que ordinariamente se presentan en las comunidades. La buena comunicación se basa en el diálogo y éste es capaz de resolver cualquier conflicto, aún entre las partes más encontradas. La comunicación es  la base de todo acuerdo.</p>
+             </div>
+           </div>
+         </div>
+      </section>
+      
+  
+  <!-- FOOTER -->
+      <footer class="main-footer">
+       
+      
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 text-center-md">
+                <p>&copy; 2018. Tu Mejor Opcion/ Ven con Nosotros</p>
+              </div>
+              <div class="col-lg-8 text-right text-center-md">
+                <p>Villa Parques</p>
+                <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"> </script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
